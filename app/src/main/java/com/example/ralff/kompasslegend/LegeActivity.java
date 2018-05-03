@@ -1,18 +1,18 @@
 package com.example.ralff.kompasslegend;
 
-import android.app.Activity;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 
-public class LegeActivity extends Activity implements SensorEventListener {
+public class LegeActivity extends AppCompatActivity implements SensorEventListener {
 
     private ImageView image;
     private float currentDegree = 0f;
